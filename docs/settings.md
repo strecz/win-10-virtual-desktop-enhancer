@@ -43,7 +43,7 @@ The main settings are found in the `[General]` section of the `settings.ini` fil
 | Setting                                        | Description                                                                                                        | Valid Values                               |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
 | DefaultDesktop                                 | Which desktop will be used as default (The program will switch to this desktop when started).                      | Any valid desktop number                   |
-| TaskbarScrollSwitching                         | If scrolling over the taskbar will switch desktops.                                                                | `1`, `0` (Meaning YES and NO respectively) |
+| TaskbarScrollSwitching                         | If scrolling over the taskbar will switch desktops, i.e. placing the mouse pointer on Virtual Desktop Enhancer system tray icon allows use of the mouse scroll function to change virtual desktops                                                                | `1`, `0` (Meaning YES and NO respectively) |
 | UseNativePrevNextDesktopSwitchingIfConflicting | Whether to switch between desktops instantly or with the default Windows transition if the shortcuts conflict.     | `1`, `0` (Meaning YES and NO respectively) |
 | DesktopWrapping                                | If going right from the last desktop should take you to the first one and vice-versa.                              | `1`, `0` (Meaning YES and NO respectively) |
 
